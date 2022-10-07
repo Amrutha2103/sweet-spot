@@ -96,19 +96,19 @@ nav ul li a {
 }
 
 .first {
-    background-image:url(../images/pexels-valeria-boltneva-1639567.jpg);
+    background-image:url(../images/image1.jpg);
 }
 
 .second {
-    background-image:url(../images/pexels-pixabay-162766.jpg);
+    background-image:url(../images/image2.jpg);
 }
 
 .third {
-    background-image:url(../images/pexels-taryn-elliott-4099127.jpg);
+    background-image:url(../images/image3.jpg);
 }
 
 .fourth {
-    background-image:url(../images/pexels-valeria-boltneva-827513.jpg);
+    background-image:url(../images/image4.jpg);
 }
 
 .card:hover {
