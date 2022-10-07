@@ -6,7 +6,7 @@
     font-family:'Roboto', sans-serif;
 }
 
-
+/* nav bar */
 .navbar {
     height: 12%;
     display: flex;
@@ -18,12 +18,13 @@
     padding: 0 2em;
 }
 
-
+/* logo */
 .logo {
     width: 200px;
     cursor: pointer;
 }
 
+/* navigation elements */
 .nav-elements {
     flex: 1;
     text-align: right;
@@ -47,6 +48,8 @@ nav ul li a {
     font-size: 15px;
 }
 
+
+/* about us section and images*/
 .about-section {
     display: flex;
     align-items: center;
@@ -111,11 +114,16 @@ nav ul li a {
     background-image:url(../images/image4.jpg);
 }
 
+
+
 .card:hover {
     transform: translateY(-10px);
 
 }
 
+
+
+/* footer */
 
 footer {
     height: 100px;
