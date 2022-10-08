@@ -30,6 +30,14 @@
     text-align: right;
 }
 
+.nav-elements a:hover {
+    font-weight: bold;  
+}
+
+.active {
+    font-weight: bold;    
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -150,3 +158,32 @@ footer {
 .social-icons a:hover i {
     color:chocolate;
 }
+
+.gallery-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 200vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/image6.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+    
+} 
+
+#photos {
+    clear:both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+
+
