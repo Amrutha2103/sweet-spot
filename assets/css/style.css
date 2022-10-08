@@ -46,10 +46,10 @@ nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
-}
+}  
 
 
-/* about us section and images*/
+/* about us section and images  */
 .about-section {
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ nav ul li a {
     box-sizing: border-box;
     
     
-}
+} 
 
 .about {
     flex-basis: 90%;
