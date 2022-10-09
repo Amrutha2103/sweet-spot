@@ -153,47 +153,30 @@ button:hover {
 }
 /* events */
 
-#events {
-    height: 500px;
-    margin-top: 50px;
-}
 
 #upcoming-events {
+    padding-top: 50px;
     text-align: center;
     font-size: 200%;
 }
+.container {
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+}
 
-#left-event {
-    height:200px;
-    width: 33%;
-    background-color: pink;
-    float: left;
-    text-align: center;
-    margin-top: 20px;
-   
-   
+.event {
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 25%;
+    background: gray;
 }
-#middle-event {
-    height:200px;
-    width: 33%;
-    background-color: rgb(85, 174, 63);
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 20px;
-    
-   
-}
-#right-event {
-    height:200px;
-    width: 33%;
-    background-color: pink;
-    float: right;
-    text-align: center;
-    margin-top: 20px;
-   
-  
-  
-}
+
+
 
 /* footer */
 
