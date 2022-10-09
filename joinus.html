@@ -46,7 +46,9 @@
                 <label for="email">Email</label>
                 <input class="input-text" id="email" type="email" name="email" required>
 
-                <label>Gender</label>
+                <label for="gender">Gender</label>
+
+                <!--
 
                 <label for="male">Male</label>
                 <input id="male" type="radio" name="gender" value="male" required>
@@ -57,9 +59,18 @@
                 <label for="none">I prefer not to say</label>
                 <input id="none" type="radio" name="gender" value="none">
 
-                <input class="submit-button" type="submit" value="Submit">
-            </form>
+                -->
 
+                
+                <select name="gender" id="gender">
+                    <option value="none" selected>Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <input class="submit-button" type="submit" value="Submit">
+            </form>   
         </section>
     <footer>
         <ul class="social-icons">

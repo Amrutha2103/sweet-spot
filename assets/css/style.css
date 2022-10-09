@@ -196,15 +196,66 @@ footer {
     
 } 
 
-
 .joinus-form {
-    position: absolute;
-    max-width: 500px;
-    right: 10%;
-    background-color: black;
+    max-width: 550px;
+    width: 90%;
+    background-color:dimgray;
     color: white;
-    margin: 40px 0;
-   
+    margin: 2vh auto 0 auto; 
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin:20px 0;
+    font-weight: bold;
+}
+
+.input-text {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
     
 }
 
+.input-text:hover{
+    border-color:rgb(236, 15, 37);
+}
+
+.submit-button {
+    border-radius: 3px;
+    text-align: center;
+    background-color:rgb(164, 100, 106);
+    color: #fff;
+    display: block;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    border-color:transparent;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: rgb(15, 191, 222);
+    color:rgb(164, 100, 106) ;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+select:hover{
+    border-color:rgb(236, 15, 37);;
+}
