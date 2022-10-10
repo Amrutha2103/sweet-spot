@@ -3,13 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* nav bar */
+
 .navbar {
     height: 80px;
-    background:#000;
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,30 +18,20 @@
 }
 
 /* logo */
+
 .logo {
     float: left;
     font-size: 250%;
     margin-left: 30px;
-    color:#fff;
-   
+    color: #fff;
 }
 
 /* navigation elements */
+
 nav ul {
     display: flex;
     list-style: none;
 }
-
-nav ul li a:hover {
-   color: #1b1b1b;  
-   background: #fff;
-}
-
-.active {
-    color: #1b1b1b;  
-    background: #fff;
- }
-
 
 nav ul li {
     margin: 0 5px;
@@ -57,14 +48,21 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
+nav ul li a:hover {
+    color: #1b1b1b;
+    background: #fff;
+}
+
+.active {
+    color: #1b1b1b;
+    background: #fff;
+}
 
 /* about us section and images  */
 
-
 .about {
     flex-basis: 90%;
-    
-} 
+}
 
 .about-section {
     display: flex;
@@ -73,18 +71,16 @@ nav ul li a {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/image5.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image5.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
-    
 }
 
-
-.about h1 {
-    color :#fff;
+.about h2 {
+    color: #fff;
     font-size: 50px;
 }
 
@@ -93,7 +89,6 @@ nav ul li a {
     font-size: 15px;
     line-height: 25px;
     font-family: 'Varela Round', sans-serif;
-    
 }
 
 button {
@@ -126,39 +121,36 @@ button:hover {
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
-    
 }
 
 .first {
-    background-image:url(../images/image1.jpg);
+    background-image: url(../images/image1.jpg);
 }
 
 .second {
-    background-image:url(../images/image2.jpg);
+    background-image: url(../images/image2.jpg);
 }
 
 .third {
-    background-image:url(../images/image3.jpg);
+    background-image: url(../images/image3.jpg);
 }
 
 .fourth {
-    background-image:url(../images/image4.jpg);
+    background-image: url(../images/image4.jpg);
 }
-
-
 
 .card:hover {
     transform: translateY(-10px);
-
 }
-/* events */
 
+/* events */
 
 #upcoming-events {
     padding-top: 50px;
     text-align: center;
     font-size: 200%;
 }
+
 .container {
     margin: 50px 50px 50px 5%;
     width: 90%;
@@ -168,15 +160,17 @@ button:hover {
 .event {
     padding: 50px;
     font-size: 20px;
-    font-weight: bold;
     color: white;
     display: inline-block;
     margin: 20px;
-    max-width: 25%;
-    background: gray;
+    max-width: 20%;
+    background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
 }
 
-
+h3 {
+    font-weight: bold;
+    color: rgb(130, 21, 21);
+}
 
 /* footer */
 
@@ -188,7 +182,7 @@ footer {
     text-align: center;
 }
 
-.social-icons > li {
+.social-icons>li {
     display: inline;
 
 }
@@ -199,64 +193,59 @@ footer {
     font-weight: 400;
     margin: 1%;
     padding: 5%;
-
 }
 
 .social-icons a:hover i {
-    color:chocolate;
+    color: chocolate;
 }
 
+/* gallery */
 
 .gallery-section {
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/image6.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image6.jpg);
     height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover;
     padding: 8% 8%;
-    
 }
-
 
 .gallery img {
     width: 250px;
     padding: 30px;
     height: 250px;
-    
-
 }
 
+/* join us */
+
 .joinus-section {
-   
     height: 900px;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/image-joinus.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image-joinus.jpg);
     background-position: center;
-    background-size:cover;
-    padding :8% 8%;
+    background-size: cover;
+    padding: 8% 8%;
     clear: left;
-    
-} 
+}
 
 .joinus-form {
     max-width: 550px;
     width: 90%;
-    background-color:dimgray;
+    background-color: dimgray;
     color: white;
-    margin: 2vh auto 0 auto; 
+    margin: 2vh auto 0 auto;
     padding: 40px;
     border-radius: 3px;
     box-sizing: border-box;
-    
 }
 
-form > h2 {
+form>h2 {
     margin: 0;
     text-align: center;
 }
 
 label {
     display: block;
-    margin:20px 0;
+    margin: 20px 0;
     font-weight: bold;
 }
 
@@ -265,23 +254,23 @@ label {
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    
+
 }
 
-.input-text:hover{
-    border-color:rgb(236, 15, 37);
+.input-text:hover {
+    border-color: rgb(236, 15, 37);
 }
 
 .submit-button {
     border-radius: 3px;
     text-align: center;
-    background-color:rgb(164, 100, 106);
+    background-color: rgb(164, 100, 106);
     color: #fff;
     display: block;
     font-size: 100%;
     margin-top: 20px;
     padding: 15px 32px 15px 32px;
-    border-color:transparent;
+    border-color: transparent;
     font-weight: bold;
 }
 
@@ -290,16 +279,16 @@ label {
     color: rgb(164, 100, 106);
 }
 
-select{
+select {
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
     outline: none;
-    font-style:normal;
+    font-style: normal;
 }
 
-select:hover{
-    border-color:rgb(236, 15, 37);;
+select:hover {
+    border-color: rgb(236, 15, 37);
 }
 
 .response {
@@ -308,7 +297,7 @@ select:hover{
     background: #4b4848;
     color: #fff;
 }
-    
+
 .response h2 {
     font-size: 25px;
     font-weight: bold;
@@ -319,4 +308,28 @@ select:hover{
 .response p {
     font-size: 18px;
     text-align: center;
+}
+
+/* media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width:950px) {
+    .navbar {
+        height: 150px;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    
 }
