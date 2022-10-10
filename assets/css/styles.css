@@ -14,7 +14,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 50px 0px 100px;
 }
 
 /* logo */
@@ -22,7 +21,7 @@
 .logo {
     float: left;
     font-size: 250%;
-    margin-left: 30px;
+    margin-left: 10px;
     color: #fff;
 }
 
@@ -35,6 +34,7 @@ nav ul {
 
 nav ul li {
     margin: 0 5px;
+    line-height: 40px;
 }
 
 nav ul li a {
@@ -67,9 +67,7 @@ nav ul li a:hover {
 .about-section {
     display: flex;
     align-items: center;
-    height: 800px;
     width: 100%;
-    overflow: hidden;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image5.jpg);
     background-position: center;
@@ -91,20 +89,21 @@ nav ul li a:hover {
     font-family: 'Varela Round', sans-serif;
 }
 
-button {
-    width: 180px;
+.btn {
+
     color: #000;
     background-color: #fff;
     font-size: 18px;
-    padding: 12px 0;
+    padding: 12px 1em;
     border-radius: 20px;
     border: 0;
     outline: none;
-    margin-top: 30px;
+    margin-top: 2em;
     font-weight: bold;
+    text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
     background-color: rgb(112, 109, 109);
     color: #fff;
 }
@@ -165,6 +164,8 @@ button:hover {
     margin: 20px;
     max-width: 20%;
     background: linear-gradient(120deg, #16817a 20%, #cee397 50%, #16817a 80%);
+    min-height: 240px;
+    vertical-align: top;
 }
 
 h3 {
@@ -203,17 +204,18 @@ footer {
 
 .gallery-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image6.jpg);
-    height: 100%;
-    width: 100%;
+
     background-position: center;
     background-size: cover;
     padding: 8% 8%;
+    text-align: center;
 }
 
 .gallery img {
     width: 250px;
     padding: 30px;
     height: 250px;
+    object-fit: cover;
 }
 
 /* join us */
@@ -314,6 +316,15 @@ select:hover {
 
 /* For larger to medium screens size from 1200px wide and down */
 
+@media screen and (max-width:1235px) {
+.image {
+    text-align: right;
+}
+}
+
+
+/* For medium screens size from 950px wide and down */
+
 @media screen and (max-width:950px) {
     .navbar {
         height: 150px;
@@ -321,15 +332,23 @@ select:hover {
 
     .logo {
         width: 100%;
-        text-align: center; 
+        text-align: center;
     }
 
     nav ul {
         flex-direction: column;
         width: 100%;
         text-align: center;
-        line-height: 30px;
+
     }
 
-    
+
+
+    /* For small screen sizes 800px and down */
+
+    @media screen and (max-width:800px) {
+        .about h2 {
+            text-align: center;
+        }
+    }
 }
