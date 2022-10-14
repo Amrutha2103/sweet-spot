@@ -24,35 +24,35 @@ The site brings together cake lovers to share in the love of cake decorating and
     * The About Us section is displayed with the images of lovely cakes prepared by the baking community and the images are provided a hover effect.
     * This section also includes a button which on clicking is redirected to the "Join Us" page of the website and the users can sign up.
 
-![This is an image](assets/images/readme-about.JPG)
+![This is an about-section image](assets/images/readme-about.JPG)
 
 - Upcoming Events section
 
     * This section describes the events that happen for the baking community.
     * The upcoming events for the community are Meetings for the members, a dream space to share the recipes and discussions between members of the latest happenings.
 
-![This is an image](assets/images/readme-events.JPG)
+![This is an events image](assets/images/readme-events.JPG)
 
 - Footer section
 
     * The footer section allows the user to get connected with the Sweet Spot via social media.
     * The footer is provided with different links to the social media sites for Sweet Spot and each of these links opens to a new tab.
 
-![This is an image](assets/images/readme-footer.JPG)
+![This is a footer image](assets/images/readme-footer.JPG)
 
 - Gallery Page
 
     * The gallery page includes many images of the Sweet Spot and it shows the users the various events that took place in the community.
     * The images in the gallery page are displayed in a grid view with a dark background.
 
- ![This is an image](assets/images/readme-gallery.JPG)
+ ![This is a gallery image](assets/images/readme-gallery.JPG)
 
  - Join Us Page
 
     * The Join Us page allows the user to sign up to the application and join the Sweet Spot community.
     * The page has a form to collect the information of the user which included firstname, lastname, email and gender of the user and a submit button to submit the information entered.
 
- ![This is an image](assets/images/readme-joinus.JPG)
+ ![This is sign up image](assets/images/readme-joinus.JPG)
 
 
 
@@ -68,8 +68,45 @@ The site brings together cake lovers to share in the love of cake decorating and
   ### **Validator Testing** 
 
   - HTML
-    * No errors were returned when passing through the official W3C validator.
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famrutha2103.github.io%2Fsweet-spot%2F).
   - CSS
-    * No errors were found when passing through the official (Jigsaw) validator.
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Famrutha2103.github.io%2Fsweet-spot%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
   - Accessibility
+    * I have checked the accessibility by running it through the lighthouse in devtools.
+
+ ![This is an accesssibility test image](assets/images/readme-accessibility.JPG)
+
+
+  ### **Bugs**
+
+  - When I tested my project, I noticed that the nav bar was not responsive and the images in the home page was not aligned properly.
+  - I fixed the issues using media queries.
+
+
+ ## **Deployment**
+
+ The site was deployed to GitHub pages.
+
+ The live link can be found here - [Sweet Spot](https://amrutha2103.github.io/sweet-spot/)
+
+
+ ## **Credits**
+
+ 
+ ### **Content**
+
+  - The icons in the webpage were taken from [Font Awesome](https://fontawesome.com/)
+  - Instructions on how to implement header for all pages with a hover effect on navigation elements was taken from this [tutorial](https://www.youtube.com/watch?v=nKnrdABs7Zs&t=754s) 
+  - The code to make the social media links was taken from the [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html) project
+
+
+  ### **Media**
+
+  - All the images used were taken from this site [istockphoto](https://www.istockphoto.com/se)
+
+    
+
+
+
+
 
