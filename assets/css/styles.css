@@ -20,7 +20,7 @@
 
 .logo {
     float: left;
-    font-size: 250%;
+    font-size: 5vw;
     margin-left: 10px;
     color: #fff;
 }
@@ -161,8 +161,8 @@ nav ul li a:hover {
     color: white;
     display: inline-block;
     margin: 20px;
-    max-width: 20%;
-    background: linear-gradient(120deg,#121010 20%, #570808 50%, #121010 80%);
+    width: 20%;
+    background: linear-gradient(120deg, #121010 20%, #570808 50%, #121010 80%);
     min-height: 250px;
     vertical-align: top;
 }
@@ -170,6 +170,10 @@ nav ul li a:hover {
 h3 {
     font-weight: bold;
     color: #d4d098;
+}
+
+.events-section {
+    background-color: #d4d098;
 }
 
 /* footer */
@@ -311,14 +315,15 @@ select:hover {
     text-align: center;
 }
 
+
 /* media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 
 @media screen and (max-width:1235px) {
-.image {
-    text-align: right;
-}
+    .image {
+        text-align: right;
+    }
 }
 
 
@@ -332,6 +337,7 @@ select:hover {
     .logo {
         width: 100%;
         text-align: center;
+        font-size: 5vw;
     }
 
     nav ul {
@@ -343,12 +349,38 @@ select:hover {
 }
 
 
-    /* For small screen sizes 800px and down */
+/* For small screen sizes 800px and down */
 
-    @media screen and (max-width:800px) {
-        .about h2 {
-            text-align: center;
-        }
+@media screen and (max-width:800px) {
+    .about h2 {
+        text-align: center;
     }
 
+    .about-section {
+        display: block;
+    }
 
+    .card {
+        margin-top: 2em;
+    }
+
+    .image {
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 7vw;
+    }
+    .event {
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .logo {
+        font-size: 10vw;
+    }
+
+}
