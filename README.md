@@ -62,6 +62,8 @@ The site brings together cake lovers to share in the love of cake decorating and
 - I confirmed that all links provided are clickable and are redirected to a new page.
 - I tested the sign up form and it works well with the submit action for the submit button.
 
+![This is response image](documentation/readme-submit.jpg)
+
 ### **Browser Compatibility**
 
 - I tested the website on different browsers like Chrome, Firefox and Edge.
