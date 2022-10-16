@@ -68,6 +68,12 @@ The site brings together cake lovers to share in the love of cake decorating and
 
 - I tested the website on different browsers like Chrome, Firefox and Edge.
 
+![This is Edge image](documentation/readme-edge.png)
+
+![This is Chrome image](documentation/readme-chrome.png)
+
+![This is Firefox image](documentation/readme-firefox.png)
+
 ### **Responsiveness**
 
 - I confirmed that the website is responsive and looks good on all standard screen sizes.
