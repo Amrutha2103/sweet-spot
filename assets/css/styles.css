@@ -20,7 +20,7 @@
 
 .logo {
     float: left;
-    font-size: 4vw;
+    font-size: 280%;
     margin-left: 10px;
     color: #fff;
 }
@@ -174,6 +174,7 @@ h3 {
 
 .events-section {
     background-color: #d4d098;
+    padding-bottom: 1px;
 }
 
 /* footer */
@@ -337,7 +338,6 @@ select:hover {
     .logo {
         width: 100%;
         text-align: center;
-        font-size: 5vw;
     }
 
     nav ul {
@@ -367,10 +367,6 @@ select:hover {
     .image {
         text-align: center;
     }
-
-    .logo {
-        font-size: 7vw;
-    }
     .event {
         width: 60%;
         display: block;
@@ -380,7 +376,7 @@ select:hover {
 
 @media screen and (max-width:500px) {
     .logo {
-        font-size: 10vw;
+        font-size: 9vw;
     }
 
 }
