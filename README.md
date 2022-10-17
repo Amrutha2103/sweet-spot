@@ -90,6 +90,9 @@ The site brings together cake lovers to share in the love of cake decorating and
   * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Famrutha2103.github.io%2Fsweet-spot%2F).
 - CSS
   * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Famrutha2103.github.io%2Fsweet-spot%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+  ![This is a css validator image](documentation/readme-css.png) 
+
 - Accessibility
   * I have checked the accessibility by running it through the lighthouse in devtools.
 
