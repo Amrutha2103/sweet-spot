@@ -189,7 +189,6 @@ footer {
 
 .social-icons>li {
     display: inline;
-
 }
 
 .social-icons i {
@@ -297,6 +296,8 @@ select:hover {
     border-color: rgb(236, 15, 37);
 }
 
+/* response */
+
 .response {
     height: 900px;
     width: 100%;
@@ -319,7 +320,7 @@ select:hover {
 
 /* media queries */
 
-/* For larger to medium screens size from 1200px wide and down */
+/* For larger to medium screens size from 1235px wide and down */
 
 @media screen and (max-width:1235px) {
     .image {
@@ -344,7 +345,6 @@ select:hover {
         flex-direction: column;
         width: 100%;
         text-align: center;
-
     }
 }
 
@@ -374,9 +374,10 @@ select:hover {
     }
 }
 
+/* For small screen sizes 500px and down */
+
 @media screen and (max-width:500px) {
     .logo {
         font-size: 9vw;
     }
-
 }
