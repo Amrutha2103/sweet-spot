@@ -80,9 +80,9 @@ The site brings together cake lovers to share in the love of cake decorating and
 
 - I confirmed that the website is responsive and looks good on all standard screen sizes.
 
-![This is a mobile image](documentation/readme-mob.JPG)
+![This is a mobile image](documentation/readme-mob.jpg)
 
-![This is a tab image](documentation/readme-tab.JPG)
+![This is a tab image](documentation/readme-tab.jpg)
 
 ### **Validator Testing** 
 
